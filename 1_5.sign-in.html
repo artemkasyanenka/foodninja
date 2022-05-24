@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>FoodNinja</title>
+    <link rel="stylesheet" href="variables.css" />
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="components/button/button.css" />
+    <link rel="stylesheet" href="components/buttons/buttons.css" />
+    <link rel="stylesheet" href="components/main/main.css" />
+    <link rel="stylesheet" href="components/logo/logo.css" />
+    <link rel="stylesheet" href="components/authorization/authorization.css" />
+    <link rel="stylesheet" href="components/form/form.css" />
+    <link rel="stylesheet" href="components/header/header.css">
+    <link rel="stylesheet" href="components/title/title.css">
+    <link rel="stylesheet" href="components/page/page.css">
+    <link rel="stylesheet" href="components/link/link.css">
+  </head>
+  <body>
+    <div class="main">
+      <div class="page page_direction_column">
+        <div class="header">
+          <div class="logo header__logo">
+            <a class="logo__link" href="/">
+              <img class="logo__image" src="assets/images/logo.png" alt="logo" />
+            </a>
+          </div>
+        </div>
+        <h1 class="title title_text_center title_size_less">Sign Up For Free</h1>
+        <div class="authorization">
+          <form class="form authorization__form" action="signin" method="post">
+            <label class="form__field form__field_blocked">
+              <input class="form__input form__input_icon_user" type="text" name="username" placeholder="Anamwp.." />
+            </label>
+            <label class="form__field form__field_blocked">
+              <input class="form__input form__input_icon_mail" type="email" name="email" placeholder="Email" />
+            </label>
+            <label class="form__field form__field_blocked">
+              <input class="form__input form__input_icon_lock" type="password" name="password" placeholder="Password" />
+            </label>
+            <span class="form__field form__field_blocked">
+              <input class="form__checkbox" checked type="checkbox" id="signedin">
+              <label class="form__label form__label_checkbox" for="signedin">Keep Me Signed In</label>
+            </span>
+            <span class="form__field form__field_blocked">
+              <input class="form__checkbox" checked type="checkbox" id="emailme">
+              <label class="form__label form__label_checkbox" for="emailme">Email Me About Special Pricing</label>
+            </span>
+            <div class="authorization__buttons buttons form__buttons buttons_hcentered">
+              <button class="button button_primary" type="submit">Create Account</button>
+            </div>
+            <div class="authorization__link">
+              <a class="link" href="#">already have an account?</a>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
