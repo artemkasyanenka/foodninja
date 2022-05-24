@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>FoodNinja</title>
+    <link rel="stylesheet" href="variables.css" />
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="components/button/button.css" />
+    <link rel="stylesheet" href="components/buttons/buttons.css" />
+    <link rel="stylesheet" href="components/main/main.css" />
+    <link rel="stylesheet" href="components/logo/logo.css" />
+    <link rel="stylesheet" href="components/socials/socials.css" />
+    <link rel="stylesheet" href="components/icon/icon.css" />
+    <link rel="stylesheet" href="components/authorization/authorization.css" />
+    <link rel="stylesheet" href="components/form/form.css" />
+    <link rel="stylesheet" href="components/page/page.css">
+    <link rel="stylesheet" href="components/header/header.css">
+    <link rel="stylesheet" href="components/title/title.css">
+    <link rel="stylesheet" href="components/link/link.css">
+  </head>
+  <body>
+    <div class="main">
+      <div class="page page_direction_column">
+        <div class="header">
+          <div class="logo header__logo">
+            <a class="logo__link" href="/">
+              <img class="logo__image" src="assets/images/logo.png" alt="logo" />
+            </a>
+          </div>
+        </div>
+
+        <h1 class="title title_text_center title_size_less">Login To Your Account</h1>
+
+        <div class="authorization">
+          <form class="form authorization__form" action="signin" method="post">
+            <label class="form__field form__field_blocked">
+              <input class="form__input" type="email" name="email" placeholder="EmaiL" />
+            </label>
+            <label class="form__field form__field_blocked">
+              <input class="form__input" type="password" name="password" placeholder="Password" />
+            </label>
+            <p class="form__text form__text_center">Or Continue With</p>
+            <div class="socials form__socials">
+              <a class="button button_light button_iconed" href="https://facebook.com">
+                <i class="icon icon_facebook"></i>
+                <span class="button__text">Facebook</span>
+              </a>
+              <a class="button button_light button_iconed" href="https://google.com">
+                <i class="icon icon_google"></i>
+                <span class="button__text">Google</span>
+              </a>
+            </div>
+            <p class="form__text form__text_center">
+              <a class="link" href="#">Forgot Your Password?</a>
+            </p>
+
+            <div class="authorization__buttons buttons form__buttons buttons_hcentered">
+              <button class="button button_primary" type="submit">Login</button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
