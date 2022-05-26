@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>FoodNinja</title>
+    <link rel="stylesheet" href="variables.css" />
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="components/icon/icon.css" />
+    <link rel="stylesheet" href="components/button/button.css" />
+    <link rel="stylesheet" href="components/buttons/buttons.css" />
+    <link rel="stylesheet" href="components/authorization/authorization.css" />
+    <link rel="stylesheet" href="components/main/main.css" />
+    <link rel="stylesheet" href="components/page/page.css" />
+    <link rel="stylesheet" href="components/form/form.css" />
+    <link rel="stylesheet" href="components/header/header.css" />
+    <link rel="stylesheet" href="components/title/title.css" />
+    <link rel="stylesheet" href="components/container/container.css" />
+    <link rel="stylesheet" href="components/subtitle/subtitle.css" />
+  </head>
+  <body>
+    <div class="main">
+      <div class="page page_direction_column">
+        <div class="header">
+          <a href="/" class="button button_warning button_iconed main__back">
+            <i class="icon icon_arrow_left"></i>
+          </a>
+        </div>
+        <div class="container">
+          <h1 class="title">
+            Fill in your bio to get<br />
+            started
+          </h1>
+          <h2 class="subtitle">This data will be displayed in your account profile for security</h2>
+        </div>
+        <div class="authorization">
+          <form class="form authorization__form" action="signin" method="post">
+            <label class="form__field form__field_blocked">
+              <input class="form__input" type="text" name="username" placeholder="First Name" />
+            </label>
+            <label class="form__field form__field_blocked">
+              <input class="form__input" type="text" name="username" placeholder="Last Name" />
+            </label>
+            <label class="form__field form__field_blocked">
+              <input class="form__input" type="text" name="phonenumber" placeholder="Phone Number" />
+            </label>
+            <div class="authorization__buttons buttons buttons_hcentered">
+                <button class="button button_primary" type="submit">Next</button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
