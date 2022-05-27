@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>FoodNinja</title>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Rubik:wght@500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="variables.css" />
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="components/avatar/avatar.css" />
+    <link rel="stylesheet" href="components/icon/icon.css" />
+    <link rel="stylesheet" href="components/button/button.css" />
+    <link rel="stylesheet" href="components/main/main.css" />
+    <link rel="stylesheet" href="components/message/message.css" />
+    <link rel="stylesheet" href="components/messages/messages.css" />
+    <link rel="stylesheet" href="components/registration/registration.css" />
+    <link rel="stylesheet" href="components/form/form.css" />
+    <link rel="stylesheet" href="components/header/header.css" />
+    <link rel="stylesheet" href="components/title/title.css" />
+    <link rel="stylesheet" href="components/subtitle/subtitle.css" />
+    <link rel="stylesheet" href="components/text/text.css" />
+    <link rel="stylesheet" href="components/box/box.css" />
+    <link rel="stylesheet" href="components/row/row.css" />
+    <link rel="stylesheet" href="components/cell/cell.css" />
+    <link rel="stylesheet" href="components/chat-bar/chat-bar.css" />
+
+  </head>
+  <body>
+    <div class="g"></div>
+    <div class="main">
+      <div class="registration">
+        <div class="header">
+          <a href="/" class="button button_warning button_iconed main__back">
+            <i class="icon icon_arrow_left"></i>
+          </a>
+        </div>
+        <h1 class="title title_margined">
+          Chat
+        </h1>
+        <div class="box box_grouped">
+            <div class="row row_positioned">
+                <div class="cell">
+                    <div class="avatar">
+                        <img class="avatar__image" src="assets/images/photo-profile1.png" alt="image">
+                    </div>
+                </div>
+                <div class="text row__text">
+                    <p class="text text_right_top">Dianne Russell
+                        <button class="row__button">
+                            <i class="icon icon_call"></i>
+                        </button>
+                    </p>
+                    <span class="text text_right_bottom text_pale"><i class="icon icon_green"></i>  Online
+                    </span>
+                </div>
+            </div>
+        </div>
+        <div class="messages">
+            <div class="row row_left">
+                <div class="cell">
+                    <div class="message message_primary">
+                        <p class="message__text">Just to order</p>
+                    </div>
+                </div>
+            </div>
+            <div class="row row_right">
+                <div class="cell">
+                    <div class="message message_secondary">
+                        <p class="message__text">Okay, for what level of spiciness?</p>
+                    </div>
+                </div>
+            </div>
+            <div class="row row_left">
+                <div class="cell">
+                    <div class="message message_primary">
+                        <p class="message__text">Okay, wait a minute 👍</p>
+                    </div>
+                </div>
+            </div>
+            <div class="row row_right">
+                <div class="cell">
+                    <div class="message message_secondary">
+                        <p class="message__text">Okay I'm waiting 👍</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="chat-bar chat-bar_adjusted">
+            <input class="chat-bar__input" type="text" name="message" value="Okay I'm waiting 👍">
+            <button class="chat-bar__button chat-bar__button_margined" type="submit">
+                <i class="icon icon_send"></i>
+            </button>
+        </div>
+    </div>
+  </body>
+</html>
