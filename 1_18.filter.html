@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>FoodNinja</title>
+    <link rel="stylesheet" href="variables.css" />
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="components/box/box.css" />
+    <link rel="stylesheet" href="components/button/button.css" />
+    <link rel="stylesheet" href="components/buttons/buttons.css" />
+    <link rel="stylesheet" href="components/container/container.css" />
+    <link rel="stylesheet" href="components/cell/cell.css" />
+    <link rel="stylesheet" href="components/chat-bar/chat-bar.css" />
+    <link rel="stylesheet" href="components/form/form.css" />
+    <link rel="stylesheet" href="components/icon/icon.css" />
+    <link rel="stylesheet" href="components/main/main.css" />
+    <link rel="stylesheet" href="components/menu/menu.css" />
+    <link rel="stylesheet" href="components/registration/registration.css" />
+    <link rel="stylesheet" href="components/row/row.css" />
+    <link rel="stylesheet" href="components/subtitle/subtitle.css" />
+    <link rel="stylesheet" href="components/text/text.css" />
+    <link rel="stylesheet" href="components/title/title.css" />
+
+  </head>
+  <body>
+    <!-- <div class="g"></div> -->
+    <div class="main">
+      <div class="registration">
+        <div class="row row_titled">
+            <div class="cell">
+                <h1 class="title title_lg">Find Your<br>Favourite Food</h1>
+            </div>
+            <div class="cell cell_iconed">
+                <a class="cell__notification">
+                    <i class="icon icon_notification"></i>
+                </a>
+            </div>
+        </div>
+        <div class="row row_input">
+            <div class="cell cell_full_width">
+                <form class="form" action="search" method="post">
+                    <label class="form__field form__field_search">
+                        <button class="form__button-search"><i class="icon icon_search">1</i></button>
+                        <input class="form__input form__input_button_search form__input_secondary" type="text" name="message" placeholder="What do you want to order?">
+                    </label>
+                </form>
+            </div>
+        </div>
+
+        <div class="container">
+            <p class="subtitle subtitle_bold">Type</p>
+            <div class="row row_gap">
+                <div class="cell">
+                    <div class="button button_warning_bright">Restaurant</div>
+                </div>
+                <div class="cell">
+                    <div class="button button_warning_bright">Menu</div>
+                </div>
+            </div>
+            <p class="subtitle subtitle_bold">Location</p>
+            <div class="row row_gap">
+                <div class="cell">
+                    <div class="button button_warning_bright">1 km</div>
+                </div>
+                <div class="cell">
+                    <div class="button button_warning_bright">>10 km</div>
+                </div>
+                <div class="cell">
+                    <div class="button button_warning_bright"><10 km</div>
+                </div>
+            </div>
+            <p class="subtitle subtitle_bold">Food</p>
+            <div class="row row_wrap row_gap">
+                <div class="cell">
+                    <div class="button button_warning_bright">Cake</div>
+                </div>
+                <div class="cell">
+                    <div class="button button_warning_bright">Soup</div>
+                </div>
+                <div class="cell">
+                    <div class="button button_warning_bright">Main Course</div>
+                </div>
+                <div class="cell">
+                    <div class="button button_warning_bright">Appetizer</div>
+                </div>
+                <div class="cell">
+                    <div class="button button_warning_bright">Dessert</div>
+                </div>
+            </div>
+        </div>
+        <div class="buttons buttons_hcentered buttons_low">
+            <button class="button button_primary button_fullsize" type="submit">Search</button>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
