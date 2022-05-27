@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>FoodNinja</title>
+    <link rel="stylesheet" href="variables.css" />
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="components/box/box.css" />
+    <link rel="stylesheet" href="components/button/button.css" />
+    <link rel="stylesheet" href="components/cell/cell.css" />
+    <link rel="stylesheet" href="components/chat-bar/chat-bar.css" />
+    <link rel="stylesheet" href="components/form/form.css" />
+    <link rel="stylesheet" href="components/icon/icon.css" />
+    <link rel="stylesheet" href="components/main/main.css" />
+    <link rel="stylesheet" href="components/menu/menu.css" />
+    <link rel="stylesheet" href="components/page/page.css" />
+    <link rel="stylesheet" href="components/row/row.css" />
+    <link rel="stylesheet" href="components/subtitle/subtitle.css" />
+    <link rel="stylesheet" href="components/text/text.css" />
+    <link rel="stylesheet" href="components/title/title.css" />
+    <link rel="stylesheet" href="components/voucher/voucher.css" />
+    <link rel="stylesheet" href="components/header/header.css" />
+    <link rel="stylesheet" href="components/container/container.css">
+
+  </head>
+  <body>
+    <div class="main">
+      <div class="page page_direction_column">
+        <div class="header">
+          <h1 class="header__title title title_lg">Find Your<br>Favourite Food</h1>
+          <a class="button button_iconed button_shadowed main__notification">
+            <i class="icon icon_notification"></i>
+          </a>
+        </div>
+
+        <div class="container">
+          <form class="form form__search" action="search" method="post">
+            <label class="form__field form__field_full_width form__field_search">
+              <button class="form__button-search"><i class="icon icon_search">1</i></button>
+              <input class="form__input form__input_button_search form__input_secondary" type="text" name="message" placeholder="What do you want to order?">
+            </label>
+
+            <button class="button form__button-filter" type="button">
+              <i class="icon icon_filter"></i>
+            </button>
+          </form>
+        </div>
+
+        <div class="voucher voucher_type_ice-cream voucher_lg">
+          <div class="voucher__content">
+            <p class="voucher__text">Special Deal For<br>October</p>
+            <button class="voucher__button voucher__button_regular voucher__button_green" type="button">Buy Now</button>
+          </div>
+        </div>
+      
+
+
+
+
+        <p class="subtitle subtitle_bold">Nearest Restaurant</p>
+        <div class="menu">
+            <div class="menu__item">
+                <img class="menu__image" src="assets/images/restaurant1-menu.png" alt="photo">
+                <p class="text text_regular">Vegan Resto</p>
+                <p class="text text_regular_pale">12 Mins</p>
+            </div>
+            <div class="menu__item">
+                <img class="menu__image" src="assets/images/restaurant2-menu.png" alt="photo">
+                <p class="text text_regular">Healthy Food</p>
+                <p class="text text_regular_pale">8 Mins</p>
+            </div>
+        </div>
+        <p class="subtitle subtitle_bold">Popular Menu</p>
+        <div class="menu">
+            <div class="menu__item">
+                <img class="menu__image" src="assets/images/1.16 homepage-menu-full.png" alt="photo">
+            </div>
+        </div>
+
+        <div class="chat-bar">
+            <a class="chat-bar__button chat-bar__button_active" href="/">
+                <i class="icon icon_home"></i>
+                <p class="chat-bar__text">Home</p>
+            </a>
+            <a class="chat-bar__button" href="/">
+                <i class="icon icon_profile"></i>
+                <p class="chat-bar__text">Profile</p>
+            </a>
+            <a class="chat-bar__button" href="">
+                <i class="icon icon_cart"></i>
+                <p class="chat-bar__text">Buy<i class="chat-bar__counter">7</i></p>
+            </a>
+            <a class="chat-bar__button" href="">
+                <i class="icon icon_chat"></i>
+                <p class="chat-bar__text">Chat<i class="chat-bar__counter"></i></p>
+            </a>
+        </div>
+    </div>
+  </body>
+</html>
