@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>FoodNinja</title>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Rubik:wght@500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="variables.css" />
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="components/icon/icon.css" />
+    <link rel="stylesheet" href="components/box/box.css" />
+    <link rel="stylesheet" href="components/button/button.css" />
+    <link rel="stylesheet" href="components/buttons/buttons.css" />
+    <link rel="stylesheet" href="components/cell/cell.css" />
+    <link rel="stylesheet" href="components/main/main.css" />
+    <link rel="stylesheet" href="components/rating/rating.css" />
+    <link rel="stylesheet" href="components/registration/registration.css" />
+    <link rel="stylesheet" href="components/customer/customer.css" />
+    <link rel="stylesheet" href="components/row/row.css" />
+    <link rel="stylesheet" href="components/text/text.css" />
+  </head>
+  <body>
+    <div class="g"></div>
+    <div class="main">
+        <div class="registration">
+          <div class="customer customer_ellipsed">
+                <img class="customer__image" src="assets/images/any-meal.png" alt="photo">
+                <p class="text text_bold_adjusted">Thank You!<br>Enjoy Your Meal</p>
+                <p class="text text_pale_low">Please rate your Restaurant</p>
+          </div>
+          <div class="rating">
+            <input class="rating__input" type="radio" id="star-5" name="rating" value="5">
+            <label class="rating__value" for="star-5"></label>
+            <input class="rating__input" type="radio" id="star-4" name="rating" value="4">
+            <label class="rating__value" for="star-4"></label>
+            <input class="rating__input" type="radio" id="star-3" name="rating" value="3">
+            <label class="rating__value" for="star-3"></label>
+            <input class="rating__input" type="radio" id="star-2" name="rating" value="2">
+            <label class="rating__value" for="star-2"></label>
+            <input class="rating__input" type="radio" id="star-1" name="rating" value="1">
+            <label class="rating__value" for="star-1"></label>
+          </div>
+          <div class="customer__form">
+            <button class="button button_linked" type="button">
+                <i class="icon icon_edit"></i>
+            </button>
+            <input class="input customer_input" type="text" name="message" value="Leave feedback">
+          </div>
+          <div class="row row_set">
+            <div class="cell cell_two_third">
+              <button class="button button_primary_lg" type="submit">Submit</button>
+            </div>
+            <div class="cell cell_one_third">
+              <button class="button button_default" type="button">Skip
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
