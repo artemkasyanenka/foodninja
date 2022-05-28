@@ -1,0 +1,28 @@
+.verification {
+  display: flex;
+  justify-content: space-between;
+  box-shadow: var(--input-shadow);
+  border-radius: 22px;
+  padding: 31px;
+}
+.verification__item {
+  font-family: var(--font-medium);
+  font-size: 33px;
+  flex-grow: 1;
+  min-width: 0;
+  flex-basis: 0;
+  text-align: center;
+  appearance: none;
+  border-width: 0;
+  margin: 6px 0 0 0;
+}
+
+.verification__item:focus {
+  outline: none;
+}
+
+.verification__item::-webkit-outer-spin-button,
+.verification__item::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}

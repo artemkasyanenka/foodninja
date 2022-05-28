@@ -1,0 +1,44 @@
+.box {
+  background-color: var(--bg_white);
+  box-shadow: var(--input-shadow);
+  padding: 10px;
+  border-radius: 22px;
+}
+.box + .box {
+  margin-top: 20px;
+}
+
+
+
+
+
+.box_transparent {}
+.box_buttoned {
+  box-shadow: none;
+  margin: auto 0 65px 0;
+
+}
+.box_grouped {
+  display: flex;
+  flex-direction: column;
+  margin: 0px 20px 20px 20px;
+  padding: 0;
+}
+.box_disabled {
+  background-color: var(--bg_aluminium);
+}
+.box_margined {
+  margin : 0 20px 20px 20px;
+}
+.box_method {
+  margin-bottom: 18px;
+}
+
+
+
+
+
+.box__caption {
+  margin-top: 10px;
+  margin-bottom: 27px;
+}

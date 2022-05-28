@@ -1,0 +1,9 @@
+.logo {
+  height: 203px;
+  width: 188px;
+}
+.logo__link {
+  display: inline-block;
+  font-size: 0;
+  line-height: 0;
+}

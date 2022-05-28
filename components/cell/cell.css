@@ -1,0 +1,52 @@
+.cell {
+}
+.cell_one_third {
+  min-width:calc(100% / 3);
+}
+.cell_two_third {
+  min-width: calc(100% / 3 * 2);
+}
+.cell_one_fifth {
+  display: flex;
+  justify-content: flex-end;
+  min-width:calc(100% / 5);
+
+}
+.cell_four_fifth {
+  min-width: calc(100% / 5 * 4);
+}
+.cell_full_width {
+  width: 100%;
+}
+
+
+.cell_icon {
+
+}
+.cell_iconed {
+  padding-bottom: 13px;
+  margin-left: auto;
+}
+.cell__notification {
+  width: 45px;
+  height: 45px;
+  background: #FAFDFF;
+  padding: 16px 14px;
+  border-radius: 15px;
+  cursor: pointer;
+}
+.cell_start {
+  margin: 0 auto 0 22px;
+}
+.cell_end {
+  margin-right: 22px;
+}
+.cell_pale {
+  opacity: 0.3;
+}
+.cell_modified {
+  margin: 13px 0 0 12px;
+}
+.cell_modified_low {
+  padding: 16px 0 0 14px;
+}

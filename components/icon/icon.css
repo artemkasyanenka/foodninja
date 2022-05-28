@@ -1,0 +1,177 @@
+.icon {
+  display: inline-block;
+  vertical-align: middle;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  width: 25px;
+  height: 25px;
+}
+.icon_facebook {
+  background-image: url("../../assets/icons/facebook.svg");
+}
+.icon_arrow_left {
+  background-image: url("../../assets/icons/icon-back.svg");
+  background-size: 10px 16px;
+}
+.icon_google {
+  background-image: url("../../assets/icons/google.svg");
+}
+.icon_paypal {
+  background-image: url("../../assets/icons/paypal.svg");
+}
+.icon_visa {
+  background-image: url("../../assets/icons/visa.svg");
+}
+.icon_payoneer {
+  background-image: url("../../assets/icons/payoneer.svg");
+}
+.icon_location {
+  background-image: url("../../assets/icons/location-logo.png");
+  width: 33px;
+  height: 33px;
+}
+.icon_notification {
+  background-image: url("../../assets/icons/alarm-notification.png");
+  width: 20px;
+  height: 24px;
+}
+
+.icon_filter {
+  background-image: url("../../assets/icons/filter.png");
+  width: 49px;
+  height: 50px;
+}
+.icon_close {
+  background-image: url("../../assets/icons/close-icon.png");
+  width: 31px;
+  height: 31px;
+}
+.icon_message {
+  background-image:url("../../assets/icons/via-message.png");
+  width: 33px;
+  height: 33px;
+}
+.icon_mail {
+  background-image:url("../../assets/icons/via-mail.png");
+  width: 33px;
+  height: 33px;
+  background-size: 33px 26px;
+}
+.icon_eye_linear {
+  background-image: url("../../assets/icons/eye-linear.png");
+  width: 22px;
+  height: 15px;
+}
+.icon_eye {
+  background-image: url("../../assets/icons/eye-linear.png");
+  width: 22px;
+  height: 15px;
+}
+.icon_successed {
+  background-image: url("../../assets/icons/checked.png");
+  width: 57px;
+  height: 58px;
+  margin-right: 19px;
+}
+.icon_error {
+  background-image: url("../../assets/icons/x-button.png");
+  width: 57px;
+  height: 58px;
+  margin-right: 20px;
+}
+.icon_warning {
+  background-image: url("../../assets/icons/coin.png");
+  width: 54px;
+  height: 51px;
+  margin-right: 23px;
+}
+
+.icon_margined {
+  margin: 13px 18px 13px 14px;
+}
+.icon_location {
+  margin-right : 14px;
+
+}
+.icon_low {
+  margin: 0 0 45px 3px;
+}
+.icon_home {
+  background-image: url("../../assets/icons/icon-home.png");
+  width: 19px;
+  height: 20px;
+}
+.icon_profile {
+  background-image: url("../../assets/icons/icon-profile.png");
+  width: 16px;
+  height: 20px;
+}
+.icon_cart {
+  background-image: url("../../assets/icons/buy.png");
+  width: 24px;
+  height: 24px;
+}
+
+.icon_chat {
+  background-image: url("../../assets/icons/chat.png");
+  width: 28px;
+  height: 26px;
+
+}
+.icon_call {
+  background-image: url("../../assets/icons/call-logo.svg");
+  width: 40px;
+  height: 40px;
+
+}
+.icon_green {
+  background-image: url("../../assets/icons/ellipse-184.png");
+  width: 6px;
+  height: 6px;
+}
+.icon_send {
+  background-image: url("../../assets/icons/icon-send.png");
+}
+.icon_speaker {
+  background-image: url("../../assets/icons/volume-up.png");
+  height: 22px;
+  width: 22px;
+}
+.icon_speaker_off {
+  background-image: url("../../assets/icons/volume-off.png");
+  height: 22px;
+  width: 22px;
+}
+.icon_cellular {
+  background-image: url("../../assets/icons/cellular-connection.png");
+  width: 17px;
+  height: 11px;
+
+}
+.icon_wifi {
+  background-image: url("../../assets/icons/wifi.png");
+  width: 15px;
+  height: 11px;
+
+
+}
+.icon_battery {
+  background-image: url("../../assets/icons/battery.png");
+  width: 24px;
+  height: 11px;
+
+}
+.icon_star {
+  background-image: url("../../assets/icons/star.png");
+}
+.icon_edit {
+  background-image: url("../../assets/icons/edit-icon.png");
+  width: 24px;
+  height: 24px;
+}
+.icon_close_lg {
+  background-image: url("../../assets/icons/x-close.png");
+  height: 19px;
+  width: 19px;
+}

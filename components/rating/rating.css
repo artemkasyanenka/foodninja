@@ -1,0 +1,41 @@
+.rating {
+  display: flex;
+  min-width: 255px;
+  justify-content: space-evenly;
+  margin : auto 31px;
+  font-size: 0;
+  line-height: 1;
+  direction: rtl;
+}
+
+.rating__input {
+  display: none;
+}
+.rating__value {
+  cursor: pointer;
+  display: inline-block;
+  background-image: url("../../assets/icons/star.png");
+  background-size: 32px 32px;
+  width: 32px;
+  height: 32px;
+  opacity: .3;
+}
+
+.rating__input:checked ~ .rating__value{
+  opacity: 1;
+}
+/*
+.rating__input {
+  display: inline-block;
+  background-image: url("/assets/icons/star.png");
+  background-size: 32px 32px;
+  opacity: 0.3;
+  cursor: pointer;
+}
+.rating__input_active {
+  background: url("/assets/icons/star.png");
+  background-size: 32px 32px;
+  opacity: 1.0;
+
+}
+*/

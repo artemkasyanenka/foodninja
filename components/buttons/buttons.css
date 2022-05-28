@@ -1,0 +1,20 @@
+.buttons {
+  display: flex;
+}
+
+.buttons_hcentered {
+  justify-content: center;
+}
+
+.buttons_vcentered {
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+
+
+
+.buttons_low {
+  margin-top: auto ;
+  margin-bottom: 35px;
+}
