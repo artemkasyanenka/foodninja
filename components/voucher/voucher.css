@@ -1,0 +1,63 @@
+.voucher {
+  margin: 0 20px 20px 20px;
+  border-radius: 16px;
+  overflow: hidden;
+  background-size: auto 100%;
+  background-repeat: no-repeat;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.voucher::before {
+  content: "";
+  display: inline-block;
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  background-image: inherit;
+  background-size:  5000% 100%;
+  z-index: -1;
+}
+.voucher_type_ice-cream {
+  background-image: url("../../assets/images/vaucher_ice_cream.png"),  var(--main_gradient) ;
+  background-position: center center;
+}
+.voucher_lg {
+  min-width: 325px;
+  min-height: 150px;
+  margin: 20px 25px 25px 25px;
+}
+
+.voucher__text{
+  font-family: var(--font-bold);
+  font-weight: normal;
+  font-size: 17px;
+  line-height: 130%;
+  color: var(--white);
+  margin-left: 55%;
+  margin-bottom: 15px;
+}
+.voucher__text_bottom {
+  color:var(--dark)
+}
+.voucher__button {
+  display: inline-block;
+  padding: 11px 15px;
+  margin : 0px 0px 0px 55%;
+}
+.voucher__button_regular {
+  background-color: var(--bg_white);
+  color: var(--dark);
+  font-size: 10px;
+  font-family: var(--font-bold);
+  border-radius: 6px;
+}
+.voucher__button_green {
+  color: #00965f;
+}
+
+

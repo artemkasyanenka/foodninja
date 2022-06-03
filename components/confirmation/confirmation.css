@@ -1,0 +1,16 @@
+.confirmation {
+  opacity: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  margin-top: auto;
+  justify-content: center;
+}
+.confirmation__image {}
+.confirmation__subtitle {
+  font-size: 23px;
+  font-family: var(--font-bold);
+  color: var(--dark);
+  margin-top: 16px;
+}

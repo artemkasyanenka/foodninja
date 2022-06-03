@@ -1,0 +1,20 @@
+.main {
+  display: flex;
+
+  width: 375px;
+  height: 812px;
+  margin: 0 auto;
+
+  /* background-color: lightblue; */
+  background-color: #fefefe;
+}
+
+
+.main__back {
+  padding: 10px;
+}
+.main__notification {
+  max-width: 45px;
+  max-height: 45px;
+  padding: 0px 12px;
+}

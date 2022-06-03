@@ -1,0 +1,136 @@
+.text {
+  font-family: var(--font-manrope);
+  margin: 0 0 0 0;
+}
+.text_regular {
+  font-family: var(--font-bold);
+  font-size: 16px;
+  padding: 14px 7px 9px 5px;
+  margin-top: auto;
+  margin-right: auto;
+  margin-left: auto;
+  margin-bottom: 4px;
+
+}
+.text_regular_pale {
+  font-family: var(--font-book);
+  font-size: 13px;
+  opacity: 0.5;
+  margin-right: auto;
+  margin-bottom: 26px;
+  margin-left: auto;
+
+}
+.text_bold {
+  font-size: 25px;
+  font-family: var(--font-bold);
+  font-weight: normal;
+  color: var(--dark);
+  line-height: 130%;
+  margin: 55px 0 21px 0;
+}
+.text_bold_adjusted {
+  font-size: 25px;
+  font-family: var(--font-bold);
+  color: var(--dark);
+  margin: 48px 0 20px 0;
+  line-height: 130%;
+  text-align: center;
+}
+.text_pale_lg {
+  font-size: 19px;
+  font-family: var(--font-regular);
+  font-weight: normal;
+  letter-spacing: 1.6px;
+  opacity: 0.3;
+
+}
+.text_pale_low {
+  font-size: 14px;
+  font-family: var(--font-regular);
+  color: var(--dark-pale);
+  opacity: 0.3;
+  margin: 0 0 0 0;
+  letter-spacing: 0.3px;
+
+}
+.text__hidden {
+  color: transparent;
+  user-select: none;
+  background-image: url("../../assets/icons/hidden-char.png");
+  background-size: 12px 8px;
+  background-repeat-y: no-repeat;
+  letter-spacing: 4.1px;
+  background-position: -2px center;
+  font-size: 18px;
+  margin-right: 7px;
+  }
+
+.text_right_top {
+  font-size: 15px;
+  font-family: var(--font-medium);
+  color: var(--dark);
+  line-height: 130%;
+}
+
+.text_right {
+  font-family: var(--font-regular);
+  font-size: 14px;
+  padding: 4px 0 0 2px;
+  letter-spacing: 0.65px;
+}
+.text_right_low {
+  font-size: 15px;
+  font-family: var(--font-medium);
+  color: var(--dark);
+  line-height: 130%;
+  letter-spacing: -0.2px;
+}
+
+.text_right_bottom {
+  margin: 8px 0 0 0;
+  font-family: var(--font-regular);
+  font-size: 14px;
+  letter-spacing: 0.85px;
+}
+.text_time {
+  display: inline-block;
+  opacity: 0.3;
+  color: var(--dark-pale);
+  font-family: var(--font-regular);
+  font-size: 14px;
+  line-height: 14px;
+  letter-spacing: 0.5px;
+  margin: 0 0 30px 7px;
+}
+
+.text_margined {
+  margin: 0 0 0 1px;
+}
+.text_pale {
+  background-color: var(--bg-neutral);
+  opacity: 0.5;
+}
+.text_set {
+  font-family: var(--font-regular);
+  font-size: 14px;
+  margin: 7px 0 0 3px;
+  opacity: 0.3;
+  letter-spacing: 0.4px;
+}
+.text_set_low {
+  font-family: var(--font-regular);
+  font-size: 14px;
+  margin: 14px 0 0 3px;
+  opacity: 0.3;
+  letter-spacing: 0.4px;
+
+
+}
+.text_light {
+  margin: 10px 0 7px 0;
+  font-family: var(--font-regular);
+  color:var(--dark-lighter) ;
+  font-size: var(--normal);
+
+}

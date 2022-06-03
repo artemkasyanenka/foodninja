@@ -1,0 +1,34 @@
+.title {
+  color: var(--dark);
+  margin:  0 0 20px 0;
+
+  font-family: var(--font-bold);
+  font-weight: normal;
+  font-size: 25px;
+
+  line-height: 130%;
+}
+
+.title_text_center {
+  text-align: center;
+}
+
+.title_size_less{
+  font-size: 20px;
+}
+
+
+.title_broken {
+  margin-bottom: 12px;
+}
+.title_margined {
+  margin-bottom: 24px;
+}
+.title_lg {
+  font-size: 30px;
+  font-family: var(--font-bold);
+  line-height: 130%;
+}
+.title_primary {
+  color: #00965f;
+}

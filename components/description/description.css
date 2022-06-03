@@ -1,0 +1,21 @@
+.description {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+  margin: 0 auto;
+  width: 375px;
+  height: 812px;
+  box-sizing: border-box;
+  padding-bottom: 61px;
+}
+
+.description__title {
+  font-family: var(--font-bold);
+  font-size: var(--medium);
+  font-weight: bold;
+  color: var(--dark);
+  margin-bottom: 23px;
+  text-align: center;
+  line-height: 130%;
+}

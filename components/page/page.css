@@ -1,0 +1,26 @@
+.page {
+    display: flex;
+    box-sizing: border-box;
+    width: 100%;
+}
+
+.page_description {
+  padding-bottom: 60px;
+}
+.page_direction_column {
+  flex-direction: column;
+}
+
+
+.page__logo {
+  margin: auto;
+}
+.page__image {
+    margin: auto 0 auto 0;
+}
+.page__title {
+    margin: 0 25px 20px 25px;
+}
+.page__subtitle {
+    margin: 0 auto 43px auto;
+}

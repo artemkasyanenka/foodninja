@@ -1,0 +1,17 @@
+.subtitle {
+  line-height: 180%;
+  font-family: var(--font-book);
+  font-size: var(--small);
+  color: var(--black);
+  font-weight: normal;
+  max-width: 31ch;
+}
+
+.subtitle_text_center {
+  text-align: center;
+}
+.subtitle_bold {
+  font-family: var(--font-bold);
+  font-size: 15px;
+  margin: 7px 0 0 31px;
+}

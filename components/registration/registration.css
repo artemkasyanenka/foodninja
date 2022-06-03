@@ -1,0 +1,21 @@
+.registration {
+  background-size: 375px 812px;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 375px;
+  height: 812px;
+  display: flex;
+  flex-direction: column;
+}
+
+.registration__form {
+  margin: 0 15px;
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  row-gap: 8px;
+}
+.registration__buttons {
+  margin-top: auto;
+  margin-bottom: 60px;
+}

@@ -1,0 +1,28 @@
+.customer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: auto 0;
+}
+.customer_ellipsed {
+  margin: auto 0;
+}
+.customer__form {
+  display: flex;
+  align-items: center;
+  border: 1px solid #e8e8e8;
+  background:  var(--bg_white);
+  border-radius: 15px;
+  margin: 15px 20px;
+  padding: 5px 0;
+}
+.customer_input {
+  border: none;
+  font-size: 14px;
+  font-family: var(--font-regular);
+  opacity: 0.3;
+  letter-spacing: 0.5px;
+  margin-top: 5px;
+  min-width: 80%;
+}

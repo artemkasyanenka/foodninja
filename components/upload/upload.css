@@ -1,0 +1,19 @@
+.upload {
+  display: inline-block;
+  position: relative;
+  direction: rtl;
+  font-size: 0;
+  border-radius: 22px;
+  overflow: hidden;
+}
+
+.upload_hcentered {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.upload__close {
+  position: absolute;
+  margin: 10px 11px;
+  cursor: pointer;
+}

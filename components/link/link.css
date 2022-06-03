@@ -1,0 +1,6 @@
+.link {
+    font-family: var(--font-medium);
+    font-size: var(--small);
+    color: #53e88b;
+    line-height: 20px;
+}

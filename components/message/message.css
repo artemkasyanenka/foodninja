@@ -1,0 +1,21 @@
+.message {
+  border: none;
+  border-radius: 13px;
+  padding: 13.5px;
+  margin-bottom: 20px;
+}
+.message_primary {
+  background-color: var(--bg_aluminium);
+}
+.message_secondary {
+  background-color:#00965f;
+  color: white;
+
+}
+.message__text {
+  margin: 0;
+  font-family: var(-font-book);
+  font-size: 14px;
+  line-height: 1;
+}
+
