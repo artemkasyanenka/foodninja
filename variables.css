@@ -1,0 +1,41 @@
+:root {
+  /* COLORS */
+  --main: #ffad1d;
+  --main_light: #ffc668;
+  --main_lighter: #ffdea4;
+  --main_lightest: #fef8e0;
+  /* TODO: Better use simple and indentical variants; alternative_bright > alternative; alternative_dim > alternative_light; etc. */
+  /* EXAMPLE: main; main_light; main_lighter; so in that case for second color will be alternative; alternative_light; alternative_lighter an so on for dark */
+  /* NOTE: for developer is much better to use something similar that can be "re"-used */
+  --alternative: #da6317;
+  --alternative_light: #e38751;
+  --alternative_lighter: #e6a986;
+  --alternative_dim: #e3cbbc;
+  --dark: #09051c;
+  --dark_light: #444352;
+  --dark_lighter: #86848f;
+  --dark_pale: #3B3B3B;
+  --white: #ffffff;
+  --black: #000000;
+
+  --main_gradient: linear-gradient(90deg, #53e88b 0%, #15be77 100%);
+  --bg_white:#FFFFFF;
+  --bg_grey:#E5E5E5;
+  --bg_neutral:#FEFEFF;
+  --bg_aluminium:#F6F6F6;
+
+  /* font sizes*/
+  --large: 32px;
+  --medium: 22px;
+  --normal: 16px;
+  --small: 12px;
+  /* font family */
+  --font-book: "BentonSans Book";
+  --font-bold: "BentonSans Bold";
+  --font-medium: "BentonSans Medium";
+  --font-regular:"BentonSans Regular";
+  --font-rubik: "Rubik";
+  --font-manrope: "Manrope";
+  /* shadow */
+  --input-shadow: 12px 26px 50px rgba(90, 108, 234, 0.07);
+}

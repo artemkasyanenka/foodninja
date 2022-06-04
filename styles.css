@@ -1,0 +1,62 @@
+@font-face {
+  font-family: "BentonSans Bold";
+  src: url("assets/fonts/bentonsans-bold-regular/bentonsans-bold-regular.otf") format("opentype");
+}
+@font-face {
+  font-family: "BentonSans Book";
+  src: url("assets/fonts/bentonsans-book/bentonsans-book.otf") format("opentype");
+}
+@font-face {
+  font-family: "BentonSans Medium";
+  src: url("assets/fonts/bentonsans-medium/bentonsans-medium.otf") format("opentype");
+}
+@font-face {
+  font-family: "BentonSans Regular";
+  src: url("assets/fonts/bentonsans-regular-regular/bentonsans-regular.otf") format("opentype");
+}
+
+body {
+  margin: 0;
+}
+p, h2 {
+  margin: 0;
+}
+.hidden {
+  display: none;
+}
+.g {
+  background-image: url("assets/images/illustration-1.5.png");
+  /* background-image: url("assets/images/illustration\ 1.4\ .png"); */
+  /* background-image: url("assets/images/1.8.upload-photo.png"); */
+  /* background-image: url("assets/images/1.9.upload-preview.png"); */
+  /* background-image: url("assets/images/1.10.set-location.png"); */
+  /* background-image: url("assets/images/1.11\ signup-notification.png"); */
+  /* background-image: url("assets/images/1.12\ verification-code.png"); */
+  /* background-image: url("assets/images/1.13\ via-method.png"); */
+  /* background-image: url("assets/images/1.14\ password.png"); */
+  /* background-image: url("assets/images/1.15\ 1notification.png"); */
+  /* background-image: url("assets/images/1.16\ homepage.png "); */
+  /* background-image: url("assets/images/1.17.\ explore-restaurant.png"); */
+  /* background-image: url("assets/images/1.18\ filter.png"); */
+  /* background-image: url("assets/images/1.22\ message.png"); */
+  /* background-image: url("assets/images/1.23\ chat-details.png"); */
+  /* background-image: url("assets/images/1.24\ call-ringing.png"); */
+  /* background-image: url("assets/images/1.25\ call.png"); */
+  /* background-image: url("assets/images/1.26\ finish-order.png"); */
+  /* background-image: url("assets/images/1.27\ rate-food.png"); */
+  /* background-image: url("assets/images/1.28\ rate-restaurant.png finish-order.png"); */
+  /* background-image: url("assets/images/1.29\ voucher-promo.png"); */
+  /* background-image: url("assets/images/1.30\ notification.png"); */
+  /* background-image: url("assets/images/1.34\ edit-payments.png"); */
+  /* background-image: url("assets/images/1.35\ edit-location.png"); */
+  background-size: 375px 812px;
+  background-position: top center;
+  background-repeat: no-repeat;
+  margin: 0 auto;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index:1;
+}
