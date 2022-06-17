@@ -29,6 +29,10 @@
 .menu__item_horizontal {
   min-width: calc(100% - 50px);
   min-height: 87px;
+  top: 20px;
+  right: 10px;
+  left: 10px;
+  bottom: 0;
 }
 .menu__image {
   border-radius: 10px;
