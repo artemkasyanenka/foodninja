@@ -27,6 +27,9 @@
 
 }
 .menu__item_horizontal {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
   min-width: calc(100% - 50px);
   min-height: 87px;
   top: 20px;

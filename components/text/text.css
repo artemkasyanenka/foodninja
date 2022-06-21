@@ -103,7 +103,12 @@
   letter-spacing: 0.5px;
   margin: 0 0 30px 7px;
 }
-
+.text_price {
+  color: #FF7C32;
+  font-size: var(--medium);
+  font-family: var(--font-bold);
+  line-height: 130%;
+}
 .text_margined {
   margin: 0 0 0 1px;
 }

@@ -1,6 +1,13 @@
 .link {
-    font-family: var(--font-medium);
-    font-size: var(--small);
-    color: #53e88b;
-    line-height: 20px;
+  font-family: var(--font-medium);
+  font-size: var(--small);
+  color: #53e88b;
+  line-height: 20px;
+}
+.link_specific {
+  text-decoration: none;
+  color:#FF7C32;
+  font-size: var(--small);
+  font-family: var(--font-book);
+  line-height: 130%;
 }
