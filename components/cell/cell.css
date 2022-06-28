@@ -1,7 +1,18 @@
 .cell {
 }
+.cell_end_1 {
+  min-width: calc(100% - 200px);
+  display: flex;
+  justify-content: flex-end;
+}
+.cell_end_2 {
+  min-width: calc(100% - 160px);
+  display: flex;
+  justify-content: flex-end;
+}
+
 .cell_one_third {
-  min-width:calc(100% / 3);
+  min-width: calc(100% / 3);
 }
 .cell_two_third {
   min-width: calc(100% / 3 * 2);
@@ -9,7 +20,7 @@
 .cell_one_fifth {
   display: flex;
   justify-content: flex-end;
-  min-width:calc(100% / 5);
+  min-width: calc(100% / 5);
 
 }
 .cell_four_fifth {

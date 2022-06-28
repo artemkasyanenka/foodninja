@@ -14,6 +14,8 @@
     <link rel="stylesheet" href="components/form/form.css" />
     <link rel="stylesheet" href="components/icon/icon.css" />
     <link rel="stylesheet" href="components/main/main.css" />
+    <link rel="stylesheet" href="components/scroll/scroll.css" />
+    <link rel="stylesheet" href="components/link/link.css" />
     <link rel="stylesheet" href="components/menu/menu.css" />
     <link rel="stylesheet" href="components/page/page.css" />
     <link rel="stylesheet" href="components/row/row.css" />
@@ -59,8 +61,18 @@
 
 
 
-        <p class="subtitle subtitle_bold">Nearest Restaurant</p>
-        <div class="menu">
+        <div class="scroll">
+          <div class="row">
+            <div class="cell">
+              <p class="subtitle subtitle_bold">Nearest Restaurant</p>
+            </div>
+            <div class="cell cell_end_1">
+               <div class="scroll__link">
+                <a class="link link_description" href="#">View More</a>
+              </div>
+            </div>
+          </div>
+          <div class="menu">
             <div class="menu__item">
                 <img class="menu__image" src="assets/images/restaurant1-menu.png" alt="photo">
                 <p class="text text_regular">Vegan Resto</p>
@@ -71,12 +83,42 @@
                 <p class="text text_regular">Healthy Food</p>
                 <p class="text text_regular_pale">8 Mins</p>
             </div>
-        </div>
-        <p class="subtitle subtitle_bold">Popular Menu</p>
-        <div class="menu">
             <div class="menu__item">
-                <img class="menu__image" src="assets/images/1.16 homepage-menu-full.png" alt="photo">
+                <img class="menu__image" src="assets/images/restaurant1-menu.png" alt="photo">
+                <p class="text text_regular">Vegan Resto</p>
+                <p class="text text_regular_pale">12 Mins</p>
             </div>
+            <div class="menu__item">
+                <img class="menu__image" src="assets/images/restaurant2-menu.png" alt="photo">
+                <p class="text text_regular">Healthy Food</p>
+                <p class="text text_regular_pale">8 Mins</p>
+            </div>
+          </div>
+          <div class="row">
+            <div class="cell">
+              <p class="subtitle subtitle_bold">Popular Menu</p>
+            </div>
+            <div class="cell cell_end_2">
+               <div class="scroll__link">
+                <a class="link link_description" href="#">View More</a>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+              <div class="menu__item menu__item_horizontal">
+                <div class="cell">
+                  <img class="menu__image menu__image_horizontal" src="assets/images/green-noodle.png" alt="photo">
+                </div>
+                <div class="cell">
+                  <p class="text text_right_low">Green Noodle</p>
+
+                  <p class="text text_pale_low">Noodle home</p>
+                </div>
+                <div class="cell">
+                  <p class="text text_price">$15</p>
+                </div>
+              </div>
+          </div>
         </div>
 
         <div class="chat-bar">
